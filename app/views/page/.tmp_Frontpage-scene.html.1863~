@@ -1,0 +1,8 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header">
+		Reddit
+	</div> 
+</div>
+<div id="listWrapper" class="palm-list main-list">  
+      <div id="MyList" x-mojo-element='List'></div>  
+</div> 

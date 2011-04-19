@@ -1,0 +1,19 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "page",
+        "source": "app/assistants/page-assistant.js"
+    },
+    {
+        "scenes": "prefs",
+        "source": "app/assistants/prefs-assistant.js"
+    },
+    {
+        "scenes": "article",
+        "source": "app/assistants/article-assistant.js"
+    },
+    {
+        "scenes": "comments",
+        "source": "app/assistants/comments-assistant.js"
+    }
+]

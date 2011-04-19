@@ -1,0 +1,289 @@
+/*
+ * The following is everything in the header
+ */
+
+.reddit-header {
+	position: fixed;  
+    z-index: 1000;
+	height: 35px;
+    width: 100%;   
+    margin: 0;  
+    -webkit-palm-mouse-target: ignore;  
+}
+
+.main-title {
+	position: fixed;  
+    font-size: 24px; 
+    top: 10px; 
+	left: 20px; 
+    width: 205px; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;  
+}
+
+.gradi {
+	position: fixed;
+	top: 10px;
+	right: 85px;
+	bottom: 0;
+	width: 70px;
+	height: 33px;
+	background-position: center;
+	background-repeat: repeat-y;
+	background-image: url("../images/right.png");
+}
+
+.internalIco {
+	position: fixed;
+	top: 10px;
+	right: 50px;
+	width: 35px;
+	height: 33px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/icon.png");
+}
+
+.loading_divSpinner {
+	position: absolute;
+	top: -24px;
+	right: -12px;
+}
+
+.main-list {
+	padding-top: 48px;
+}
+
+/* A scroller needs a container element */
+.scrollerId {
+	position: fixed;
+	top: -25px;
+	width: 190px;
+}
+
+.scrollerContainer {
+    height: 35px;
+}
+
+.scrollerItem {
+    float:     left;
+	font-size: 24px;
+    width:     190px;
+    min-width: 190px;
+}
+
+
+/*
+ * Below is all classes pertaining to list items
+ */
+
+
+.grid-cell {  
+   color: #000;  
+}  
+
+.grid-cell.selected {  
+   color: #fff;  
+   background: #ccc;  
+   border: 0px solid #00f;  
+}
+
+/* This is specifically the block where upvoting and vote count happens */
+.voting {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+	width: 35px;
+}
+
+.comVoting {
+	display: inline-block;
+	height: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.count {
+	width: 32px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.upvoteO {
+	height: 25px;
+	width: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/upvote.png");
+}
+
+.upvoteSel {
+	height: 25px;
+	width: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/upvotesel.png");
+}
+
+.downvoteO {
+	height: 25px;
+	width: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/downvote.png")
+}
+
+.downvoteSel {
+	height: 25px;
+	width: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/downvotesel.png")
+}
+
+
+/* this is where the text and author and stuff shows up */
+.bulk {
+	display: inline-block;
+	vertical-align: top;
+	width: 230px;
+}
+
+.titlemod {
+	padding: 7px;
+	font-size: 15px;
+}
+
+img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.authr {
+	font-size: 10px;
+}
+
+.like {
+	display: none;
+}
+
+/*
+ * Preferences css
+ */
+
+.prefs-header {
+ 	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 35px;
+}
+
+.prefs-title {
+	position: absolute;
+}
+
+/*
+ * This is webview
+ */
+
+#webWrapper {  
+    padding-top: 48px;  
+}  
+
+/*
+ * This is for the webview loading
+ */
+
+.palm-menu-icon.load-progress {
+      background-image: url(../images/progress-indicator.png);
+      width: 48px;
+      height: 48px;
+      left: -24px;
+      margin-top: -8px;
+}
+
+.palm-menu-icon.load-progress.progress-0 {
+      background-position: 0px 0px;      
+}
+.palm-menu-icon.load-progress.progress-1 {
+      background-position: 0px -48px;      
+}
+.palm-menu-icon.load-progress.progress-2 {
+      background-position: 0px -96px;      
+}
+.palm-menu-icon.load-progress.progress-3 {
+      background-position: 0px -144px;      
+}
+.palm-menu-icon.load-progress.progress-4 {
+      background-position: 0px -192px;      
+}
+.palm-menu-icon.load-progress.progress-5 {
+      background-position: 0px -240px;      
+}
+.palm-menu-icon.load-progress.progress-6 {
+      background-position: 0px -288px;   
+}
+.palm-menu-icon.load-progress.progress-7 {
+      background-position: 0px -336px;      
+}
+.palm-menu-icon.load-progress.progress-8 {
+      background-position: 0px -384px;   
+}
+.palm-menu-icon.load-progress.progress-9 {
+      background-position: 0px -432px;   
+}
+.palm-menu-icon.load-progress.progress-10 {
+      background-position: 0px -480px;   
+}
+.palm-menu-icon.load-progress.progress-11 {
+      background-position: 0px -528px;   
+}
+.palm-menu-icon.load-progress.progress-12 {
+      background-position: 0px -576px;   
+}
+.palm-menu-icon.load-progress.progress-13 {
+      background-position: 0px -624px;   
+}
+.palm-menu-icon.load-progress.progress-14 {
+      background-position: 0px -672px;   
+}
+.palm-menu-icon.load-progress.progress-15 {
+      background-position: 0px -720px;   
+}
+.palm-menu-icon.load-progress.progress-16 {
+      background-position: 0px -768px;   
+}
+.palm-menu-icon.load-progress.progress-17 {
+      background-position: 0px -816px;   
+}
+.palm-menu-icon.load-progress.progress-18 {
+      background-position: 0px -864px;   
+}
+.palm-menu-icon.load-progress.progress-19 {
+      background-position: 0px -912px;   
+}
+.palm-menu-icon.load-progress.progress-20 {
+      background-position: 0px -960px;   
+}
+.palm-menu-icon.load-progress.progress-21 {
+      background-position: 0px -1008px;   
+}
+.palm-menu-icon.load-progress.progress-22 {
+      background-position: 0px -1056px;   
+}
+.palm-menu-icon.load-progress.progress-23 {
+      background-position: 0px -1104px;   
+}
+.palm-menu-icon.load-progress.progress-24 {
+      background-position: 0px -1152px;   
+}
+.palm-menu-icon.load-progress.progress-25 {
+      background-position: 0px -1200px;   
+}
+

@@ -1,0 +1,16 @@
+<div class="palm-row grid-cell" x-mojo-tap-highlight="immediate">
+	<!-- this is the main block -->
+	<div class="titlemod" name="article">
+		<div class="voting" name="voting">
+			<div id="upvote" class="upvoteO"></div>
+			<div id="count" class="count">#{totCount}</div>
+			<div id="downvote" class="downvoteO"></div>  
+		</div>
+		<div class="bulk">
+			<img src=#{thumbnail} id="thumby" name="thumby">
+	 		<div>#{title}</div>
+			<div class="authr">#{author} from #{subreddit}</div>
+		</div>
+		<div class="like">#{likes}</div>
+	 </div>  
+</div>  

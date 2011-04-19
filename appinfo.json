@@ -1,0 +1,9 @@
+{
+	"id": "com.mitchellclay.unofficialreddit",
+	"version": "1.0.0",
+	"vendor": "Mitchell Clay",
+	"type": "web",
+	"main": "index.html",
+	"title": "Unofficial Reddit",
+	"icon": "icon.png"
+}

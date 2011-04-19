@@ -1,0 +1,20 @@
+<!-- 
+	myHeader id makes it stick to the top when scrolling
+	palm-page-header looks SOOO much better than palm-header.  Palm-header
+	just seems to distract from the content by giving the appearance that it
+	is poking out of the page
+-->
+<div id="myHeader" class="reddit-header palm-page-header multi-line">	
+	<div x-mojo-element="Scroller" class="scrollerId" id="scrollerId">
+    	<div class="scrollerContainer" id="scrollerContainer">
+    		<!-- This is populated by the html var in the page-assistant -->
+    	</div>
+	</div>
+	<div class="gradi"></div>
+	<div class="internalIco"></div> 
+  	<div class="loading_divSpinner" id="loading_divSpinner" x-mojo-element="Spinner"></div>  
+</div>
+<div id="listWrapper" class="palm-list main-list">  
+      <div id="mainList" x-mojo-element='List'></div>  
+</div> 
+<div class="palm-scrim" id="loading_divScrim" style="visibility: hidden; top: 48px;"></div> 
